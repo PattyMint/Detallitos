@@ -1,0 +1,154 @@
+INDEX
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="estilos/est.css">
+        <link href="https://fonts.googleapis.com/css2?family=Corinthia:wght@400;700&display=swap" rel="stylesheet">
+        <title></title>
+    </head>
+    <body>
+
+        <header id="cabecera">
+
+        </header>
+        <div id="fondo">
+            <<h1 id="titulo">Globos bonitos</h1>
+            <br>
+            <p>Para cuando tu novia esta molesta o <br> cuando tu perro necesita atención</p>
+
+        </div>
+        <div id="cajitaflotante">
+        <div style="-moz-border-radius-bottomright: 20px; -webkit-border-bottom-right-radius: 20px; background-color: #fdfcf6; border-bottom-right-radius: 20px; height: 111px; padding: 5px; width: 150px;">
+        <div style="height: 100px; overflow-x: hidden; overflow-y: auto;">
+        <center>
+
+            <img src="https://media.tumblr.com/tumblr_medtutLKoT1qdlkyg.gif"><font face="arial" size=2 color= #cc83a8>La felicidad es hacer lo que se desea y desear lo que se hace. <br>¡Feliz Navidad y Próspero año nuevo!</font><img src="https://media.tumblr.com/tumblr_meckedJtF81qdlkyg.gif" />
+        </center>
+        </div>
+        </div>
+        <div style="-moz-border-radius-bottomleft: 300px; -moz-border-radius-bottomright: 300px; -webkit-border-bottom-left-radius: 300px; -webkit-border-bottom-right-radius: 300px; background-image: url('http://37.media.tumblr.com/971dadcd5d7b7caa6bd236bebf8e9d46/tumblr_mt67noIbPl1ru3nbdo7_r1_250.png'); border-bottom-left-radius: 300px; border-bottom-right-radius: 300px; height: 60px; width: 99px;">
+        </div>
+        <div style="background: transparent; color: #cc83a8; font-family: silkscreen; font-size: 12px; letter-spacing: 0px; line-height: 8px; margin-left: 0px; margin-top: -35px; padding: 5px; text-align: center; width: 89px;">
+        <img src="http://media.tumblr.com/tumblr_meckfekQ0V1qdlkyg.gif"/>
+        </div>
+        </div>
+    </body>
+</html>
+
+
+
+ESTILO
+
+*{
+    margin: 0;
+    padding: 0;
+}
+#cabecera{
+        width: 100%;
+        height: 70px;
+        background: #0B032D;
+
+}
+#fondo{
+    width: 100%;
+    height: 89.5vh;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.5),rgba(4, 9, 30, 0.5)),url(../imagenes/cabecera.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+#titulo{
+    font-size: 90px;
+    padding-top: 100px;
+    padding-left: 50px;
+    color: white;
+    font-family: 'Corinthia', cursive;
+    letter-spacing: 8px;
+
+
+}
+#fondo p{
+    margin-top: 50px;
+    margin-left: 50px;
+    font-size: 42px;
+    color: white;
+    font-family: 'Corinthia', cursive;
+    font-weight: 100;
+    letter-spacing: 2px;
+
+}
+#cajitaflotante{
+top:-136px;
+left:6px;
+
+width:160px;
+height:180px;
+
+background-color:transparent;
+
+font-family:silkscreen;
+font-size:8px;
+color:#cc83a8;
+
+position:fixed;
+z-index:8888;
+
+-webkit-transition: all 0.5s ease-in-out;
+-moz-transition: all 0.5s ease-in-out;
+-o-transition: all 0.5s ease-in-out;
+-ms-transition: all 0.5s ease-in-out;
+transition: all 0.5s ease-in-out;
+}
+
+#cajitaflotante:hover{
+top:0px;
+
+z-index:9999;
+
+-webkit-transition: all 0.5s ease-in-out;
+-moz-transition: all 0.5s ease-in-out;
+-o-transition: all 0.5s ease-in-out;
+-ms-transition: all 0.5s ease-in-out;
+transition: all 0.5s ease-in-out;
+}
+
+#cajitaflotante img {
+max-width: 145px;
+height: auto;
+}
+
+#cajitaflotante1{
+top:-50px;
+
+
+left:106px;
+
+
+
+
+width:160px;
+height:94px;
+
+background-color:transparent;
+
+position:fixed;
+z-index:8888;
+
+-webkit-transition: all 0.5s ease-in-out;
+-moz-transition: all 0.5s ease-in-out;
+-o-transition: all 0.5s ease-in-out;
+-ms-transition: all 0.5s ease-in-out;
+transition: all 0.5s ease-in-out;
+}
+
+#cajitaflotante1:hover{
+top:0px;
+
+-webkit-transition: all 0.5s ease-in-out;
+-moz-transition: all 0.5s ease-in-out;
+-o-transition: all 0.5s ease-in-out;
+-ms-transition: all 0.5s ease-in-out;
+transition: all 0.5s ease-in-out;
